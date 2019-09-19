@@ -19,4 +19,8 @@ class Show < ActiveRecord::Base
   def Show::ratings_sum
     Show.count("rating")
   end
+  
+  def Show::popular_show 
+    
+  end
 end
