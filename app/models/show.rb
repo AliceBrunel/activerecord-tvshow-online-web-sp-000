@@ -20,7 +20,7 @@ class Show < ActiveRecord::Base
     Show.count(:rating)
   end
   
-  def Show::popular_show 
+  def Show::popular_shows 
     Show.where("rating > '5'")
   end
 end
